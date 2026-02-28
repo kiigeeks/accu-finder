@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+@source "../views";
+
+@theme {
+    --font-inter: "Inter", sans-serif; 
+}
+
+body {
+	@apply font-inter flex flex-col justify-center bg-gray-200/70;
+}
+
+* {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    scroll-behavior: smooth;
+    scrollbar-width: none !important;
+
+    /* menghilangkan scroll */
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: transparent transparent;
+    }
+
+    *::-webkit-scrollbar {
+        width: 0;
+    }
+
+    *::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
+}
+
+.ts-wrapper.single .ts-control {
+    @apply h-10 border border-gray-400 rounded-xl px-3 text-sm;
+}
