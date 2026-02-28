@@ -118,7 +118,7 @@
                 result.innerHTML=html;
             })
             .catch(()=>{
-                result.innerHTML="<div class='text-gray-500'>No data found</div>";
+                result.innerHTML="<div class='text-gray-500 text-center italic'>No data found</div>";
             });
         });
 
@@ -138,7 +138,7 @@
                 result.innerHTML=html;
             })
             .catch(()=>{
-                result.innerHTML="<div class='text-gray-500'>No data found</div>";
+                result.innerHTML="<div class='text-gray-500 text-center italic'>No data found</div>";
             });
         });
 
