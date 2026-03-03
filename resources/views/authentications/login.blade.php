@@ -12,7 +12,7 @@
                     <img src="/assets/BIT.jpg" alt="Logo BIT" loading="lazy" class="w-full h-full rounded-full object-cover">
                 </div>
                 <h1 class="font-bold tracking-[5px] uppercase text-3xl">Admin ZOne</h1>
-                <h1 class="font-semibold tracking-[2px] uppercase text-xl">AKI Finder</h1>
+                <h1 class="font-semibold tracking-[2px] uppercase text-xl">ACCU Finder</h1>
             </div>
 
             <div class="mt-6">
