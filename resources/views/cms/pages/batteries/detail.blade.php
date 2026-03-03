@@ -55,7 +55,7 @@
                     <label htmlFor='weight' class="text-sm md:text-base italic px-3">Weigth (KG)</label>
                     <div class="h-10 border {{ $errors->has('weight') ? 'border-red-400' : 'border-gray-400' }} rounded-xl w-full flex flex-row justify-between items-center">
                         <input
-                            type='number' placeholder=''
+                            type='text' placeholder=''
                             name="weight" id="weight"
                             class="h-full w-full text-xs md:text-sm rounded-xl px-3 focus:outline-none focus:ring-0"
                             value='{{ old('weight', $data->weight) }}' />
